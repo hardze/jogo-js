@@ -1,12 +1,53 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-.jogo {
-  width: 80%;
-  height: 500px;
+canvas {
+  display: block;
+}
+main{
   position: absolute;
+  top: 100px;
+  left: 650px;
+}
+h1{
+  position:absolute;
+  top:15px;
+  left: 660px;
+  color: #174e85;
+  font-family: 'Gabarito';
+  opacity:1;
+  font-size: 40px;
+}
+.heroi{
+  position: absolute;
+  left: 230px;
   top: 150px;
-  left: 50px;  
+  width: 250px;
+  opacity:1;
+}
+.vilao{
+  position: absolute;
+  right: 100px;
+  top: 180px;
+  width: 400px;
+  opacity:1;
+}
+.txt{
+  position: absolute;
+  font-size: 30px;
+  top: 480px;
+  left: 50px;
+  color: #174e85;
+  font-family: 'Gabarito';
+  opacity:1;
+}
+.fundo{
+  position:absolute;
+  top: 0px;
+  width:1920px;
+  height:700px;
+  opacity:0.1;
 }
