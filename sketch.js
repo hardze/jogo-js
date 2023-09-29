@@ -1,5 +1,5 @@
 function setup() {
-createCanvas(600, 400); 
+createCanvas(700, 400); 
 somDoRio.loop();
 }
 

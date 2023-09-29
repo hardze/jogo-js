@@ -1,6 +1,6 @@
 //Vilões
-let xViloes = [600, 600, 600, 600];
-let yViloes = [40, 96, 150, 190];
+let xViloes = [700, 700, 700, 700];
+let yViloes = [40, 120, 190, 270];
 let velocidadeViloes = [2, 2.5, 3.2, 3.8];
 let comprimentoVilao = 50;
 let alturaVilao = 40;
@@ -20,7 +20,7 @@ function movimentaVilao(){
 function voltaPosicaoInicialDoVilao(){
   for (let i = 0; i < imagemViloes.length; i++){
   if (passouTodaATela(xViloes[i])){
-  xViloes[i] = 600;
+  xViloes[i] = 700;
 }
 }
 }
