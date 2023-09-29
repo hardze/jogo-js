@@ -45,6 +45,15 @@ h1{
   font-family: 'Gabarito';
   opacity:1;
 }
+.txt2{
+  position: absolute;
+  font-size: 30px;
+  top: 890px;
+  left: 50px;
+  color: #174e85;
+  font-family: 'Gabarito';
+  opacity:1;
+}
 .fundo{
   position:absolute;
   top: 0px;
